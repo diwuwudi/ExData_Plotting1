@@ -1,6 +1,6 @@
 #This script assumes that the desired data is located in the current working directory
 
-# Load the data
+# Load the data 
 data <- read.table("household_power_consumption.txt", sep=";", header = TRUE)
 
 # Concert Date to "Date" format
